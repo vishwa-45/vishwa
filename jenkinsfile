@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Clone the repository
-                git branch: 'main', url: 'https://github.com/vishwa-45/nodeapp_test.git'
+                git branch: 'main', url: 'https://github.com/vishwa-45/vishwa.git'
             }
         }
         stage('Build Docker Image') {
